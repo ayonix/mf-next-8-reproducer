@@ -12,7 +12,7 @@ module.exports = {
     port: 3001,
   },
   output: {
-    publicPath: 'http://localhost:3001/',
+    publicPath: 'http://localhost:3000/MFRemote/',
   },
   module: {
     rules: [

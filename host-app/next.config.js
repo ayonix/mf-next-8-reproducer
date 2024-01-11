@@ -1,16 +1,15 @@
-const { NextFederationPlugin } = require('@module-federation/nextjs-mf');
+const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 
 module.exports = {
+  basePath: "/MFHost",
+  output: "export",
   webpack(config, options) {
     if (!options.isServer) {
       config.plugins.push(
         new NextFederationPlugin({
-          name: 'host',
-          remotes: {
-            remote: 'remote@http://localhost:3001/remote.js',
-          },
-          filename: 'static/chunks/remoteEntry.js',
-        }),
+          name: "host",
+          filename: "static/chunks/remoteEntry.js",
+        })
       );
     }
 
