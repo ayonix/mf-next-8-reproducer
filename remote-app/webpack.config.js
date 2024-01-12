@@ -40,13 +40,9 @@ module.exports = {
         },
         react: {
           singleton: true,
-          version: '0',
-          requiredVersion: false,
         },
         'react-dom': {
-          requiredVersion: false,
           singleton: true,
-          version: '0',
         },
       },
     }),
