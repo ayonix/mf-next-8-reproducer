@@ -12,9 +12,7 @@
     "webpack-dev-server": "4.15.1"
   },
   "scripts": {
-    "dev": "webpack-cli serve",
     "build": "webpack --mode production",
-    "serve": "serve dist -p 3002",
     "clean": "rm -rf dist"
   },
   "dependencies": {

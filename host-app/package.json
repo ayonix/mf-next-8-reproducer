@@ -2,13 +2,11 @@
   "name": "nextjs-react_host-app",
   "version": "0.1.0",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "8.1.5",
+    "@module-federation/nextjs-mf": "0.0.0-next-20240114005722",
     "@module-federation/runtime": "^0.0.8",
     "@module-federation/utilities": "3.0.5",
     "@stitches/react": "^1.2.8",
